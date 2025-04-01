@@ -20,7 +20,7 @@ function Productsview() {
             })
             .catch((err) => console.log("error", err)
             )
-    }, [])
+    }, [id])
 
     return (<div>
         <Header />

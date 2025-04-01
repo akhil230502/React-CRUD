@@ -26,7 +26,7 @@ function About() {
                     <div className="row">
                         {
                             data.map((product) =>
-                                <div className="col-3 lg-4 md-3 sm-2 mt-5">
+                                <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5">
                                     <div className="card" style={{ width: "300px", height: "300px" }}>
                                         <img className="card-img-top" src={product.image} style={{ width: "80px", height: "100px", marginLeft: "100px" }} />
                                         <div className="card-body">

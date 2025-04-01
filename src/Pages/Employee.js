@@ -35,18 +35,7 @@ function Employee() {
         console.log("error", err);
 
       })
-
-  }
-  const handleUpdate = () => {
-    axios.put(`https://67e67d256530dbd31110336d.mockapi.io/api/Users`)
-      .then((response) => {
-        console.log(response);
-
-        setTableData(response.data)
-      })
-      .catch((err) => console.log("error", err)
-      )
-  }
+    }
 
 
   return (
